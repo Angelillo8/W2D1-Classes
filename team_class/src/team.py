@@ -14,6 +14,7 @@ class Team:
             return True
         else:
             return False
+        # return player in self.players
     
     def play_game(self, has_won):
         if has_won == True:
