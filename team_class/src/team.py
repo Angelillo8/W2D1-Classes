@@ -15,9 +15,12 @@ class Team:
         else:
             return False
         # return player in self.players
+        # return self.players.count(player) > 0
     
     def play_game(self, has_won):
         if has_won == True:
             self.points += 3
         elif has_won == False:
             self.points += 0
+        # if game_won:
+        #     self.points += 3
